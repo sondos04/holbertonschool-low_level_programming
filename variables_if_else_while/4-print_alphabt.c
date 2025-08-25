@@ -12,8 +12,8 @@ while(a <= 'z')
 while(a != 'q' || a != 'e')
 {
 putchar(a);
-a++;
 }
+a++;
 }
 putchar('\n');
 return (0);
