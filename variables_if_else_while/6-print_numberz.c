@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-int zero = 0;
+int zero:
+zero = 0;
 while ( zero <= 9)
 {
-putchar(zero) ;
-zero++ ;
+putchar(zero);
+zero++;
 }
 putchar('\n');
 return (0);
