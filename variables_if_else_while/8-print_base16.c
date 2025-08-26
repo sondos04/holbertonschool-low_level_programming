@@ -11,9 +11,9 @@ int main(void)
     for (n = 0; n < 16; n++)
     {
         if (n < 10)
-            putchar('0' + n);       // digits 0–9
+            putchar('0' + n);    
         else
-            putchar('a' + (n - 10)); // letters a–f
+            putchar('a' + (n - 10)); 
     }
 
     putchar('\n');
