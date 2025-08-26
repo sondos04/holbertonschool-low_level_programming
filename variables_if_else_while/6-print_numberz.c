@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-int zero;
-zero = 0;
-while ( zero <= 9)
+int z;
+z = 0;
+while (z <= 9)
 {
-putchar(zero);
-zero++;
+putchar(z);
+z++;
 }
 putchar('\n');
 return (0);
