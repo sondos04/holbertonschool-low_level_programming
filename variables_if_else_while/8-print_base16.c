@@ -7,7 +7,7 @@
 int main (void)
 {
 int hexa ;
-for(hexa = 0; n < 16: hexa++)
+for(hexa = 0; hexa < 16; hexa++)
 {
 if (n < 10)
 {
