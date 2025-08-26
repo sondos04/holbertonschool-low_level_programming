@@ -9,15 +9,15 @@ int main (void)
 int hexa ;
 for(hexa = 0; hexa < 16; hexa++)
 {
-if (n < 10)
+if (hexa < 10)
 {
 putchar('0' + hexa);
 }
 else
 {
 putchar('0' + (hexa - 10));
-hexa++;
 }
+hexa++;
 }
 putchar('\n');
 return (0);
