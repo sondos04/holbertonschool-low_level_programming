@@ -10,7 +10,7 @@ int z;
 z = 0;
 while (z <= 9)
 {
-putchar(z + '0'); //convert int to char
+putchar(z + '0');
 z++;
 }
 putchar('\n');
