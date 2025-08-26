@@ -9,9 +9,9 @@ int main(void)
 char z = 'z';
 while ( z <= 'a')
 {
-putchart(z);
+putchar(z);
 z--;
 }
-putcahr('\n');
+putchar('\n');
 return (0);
 }
