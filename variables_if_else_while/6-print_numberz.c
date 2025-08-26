@@ -7,9 +7,9 @@
 int main(void)
 {
 char zero = '0';
-while ( ozero < '10')
+while ( zero <= '9')
 {
-putchart(zero);
+putchar(zero);
 zero--;
 }
 putcahr('\n');
