@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-char zero = '0';
-while ( zero <= '9')
+char zero = 0;
+while ( zero <= 9)
 {
 putchar(zero);
 zero--;
