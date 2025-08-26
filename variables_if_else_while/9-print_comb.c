@@ -16,7 +16,6 @@ putchar(',');
 putchar(' ');
 }
 }
-putchar('$');
-printf("\n");
+putchar('\n');
 return (0);
 }
