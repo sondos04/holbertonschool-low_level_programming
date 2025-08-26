@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char z = 'z';
-while ( z <= 'a')
+char zero = '0';
+while ( ozero < '10')
 {
-putchart(z);
-z--;
+putchart(zero);
+zero--;
 }
 putcahr('\n');
 return (0);
