@@ -10,7 +10,7 @@ char zero = 0;
 while ( zero <= 9)
 {
 putchar(zero);
-zero--;
+zero++;
 }
 putchar('\n');
 return (0);
