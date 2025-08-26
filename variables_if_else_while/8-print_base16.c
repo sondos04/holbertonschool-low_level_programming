@@ -4,21 +4,18 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-int hexa ;
-for(hexa = 0; hexa < 16; hexa++)
-{
-if (hexa < 10)
-{
-putchar('0' + hexa);
-}
-else
-{
-putchar('0' + (hexa - 10));
-}
-hexa++;
-}
-putchar('\n');
-return (0);
+    int n;
+
+    for (n = 0; n < 16; n++)
+    {
+        if (n < 10)
+            putchar('0' + n);       // digits 0–9
+        else
+            putchar('a' + (n - 10)); // letters a–f
+    }
+
+    putchar('\n');
+    return (0);
 }
