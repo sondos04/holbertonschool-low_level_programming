@@ -1,4 +1,3 @@
-#include "main.c"
 void print_alphabet(void)
 {
 char a = 'a';
