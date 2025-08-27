@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * abs - computes the absoilute of integeer
- * @n: the character to check
- * abs: finction to give absolute value
- * Return: int
+ * _abs - Computes the absolute value of an integer
+ * @n: The integer to compute
+ *
+ * Return: The absolute value of n
  */
 int _abs(int n)
 {
