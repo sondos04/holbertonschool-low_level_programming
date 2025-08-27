@@ -2,10 +2,10 @@
 #include <stdio.h>
 /**
  * add - Adds two integers and returns the result
- * @a: First integer
- * @b: Second integer
+ * @n: First integer
+ * @m: Second integer
  *
- * Return: Sum of a and b
+ * Return: Sum of n and m
  */
 int add(int n, int m)
 {
