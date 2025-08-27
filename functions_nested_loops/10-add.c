@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * add- is to add numer to another
+/**
+ * add - Adds two integers and returns the result
+ * @a: First integer
+ * @b: Second integer
  *
- * Return: result of addtion
+ * Return: Sum of a and b
  */
 int add(int n, int m)
 {
