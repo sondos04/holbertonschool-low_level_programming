@@ -16,5 +16,6 @@ _putchar(a);
 a++;
 }
 _putchar('\n');
+a = 'a' ;
 }
 }
