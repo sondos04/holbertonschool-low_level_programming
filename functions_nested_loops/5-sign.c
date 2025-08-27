@@ -3,7 +3,7 @@
  * print_sign - checks the sign
  * @n: the character to check
  *
- * Return: 1 if n is greater than zero , 0 otherwise if n is zero , -1 if n is less than zero
+ * Return: 1 if n > 0 , 0 if n = 0 , -1 if n < 0
  */
 int print_sign(int n)
 {
