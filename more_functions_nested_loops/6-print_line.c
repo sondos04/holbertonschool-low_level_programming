@@ -1,7 +1,7 @@
 #include "main.h"
 void print_line(int n)
 {
-	int cunt = 0
+int cunt = 0;
 while (n != 0)
 {
 while (n >= cunt)
