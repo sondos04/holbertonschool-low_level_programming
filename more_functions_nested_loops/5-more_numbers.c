@@ -12,7 +12,7 @@ for (num = 1; num <= 10; num++)
 {
 while ( a < 15 )
 {
-_putchar(a + '0');
+_putchar(a + '00');
 a++;
 }
 _putchar('\n');
