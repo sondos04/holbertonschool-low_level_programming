@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_squara - print a # in the terminal
- * @sizw: number of times and lines the character '#' should be printed
+ * print_square - print a # in the terminal
+ * @size: number of times and lines the character '#' should be printed
  *
  * Description: If n is 0 or less, the function should only print \n.
  * Return: void
