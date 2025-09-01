@@ -12,7 +12,8 @@ for (num = 1; num <= 10; num++)
 {
 while ( a < 15 )
 {
-_putchar(a + '00');
+_putchar( (a / 10) + '0');
+_putchar( (a % 10) + '0');
 a++;
 }
 _putchar('\n');
