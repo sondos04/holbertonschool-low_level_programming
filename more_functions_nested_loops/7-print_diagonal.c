@@ -15,7 +15,7 @@ if (n > 0)
 {
 for (cunt = 0; cunt < n ; cunt++)
 {
-for (spece = 0; speca < n ; spece++)
+for (spece = 0; speca < cunt ; spece++)
 {
 _putchar(32);
 }
