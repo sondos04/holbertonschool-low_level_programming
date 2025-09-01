@@ -10,13 +10,13 @@ int num;
 int a = 0;
 for (num = 1; num <= 10; num++)
 {
-while ( a < 15 )
+while (a < 15)
 {
-	if (a > 9)
-	{
-_putchar( (a / 10) + '0');
-	}
-_putchar( (a % 10) + '0');
+if (a > 9)
+{
+_putchar((a / 10) + '0');
+}
+_putchar((a % 10) + '0');
 a++;
 }
 _putchar('\n');
