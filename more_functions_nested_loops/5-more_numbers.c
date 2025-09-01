@@ -10,7 +10,7 @@ int num;
 int a = 0;
 for (num = 1; num <= 10; num++)
 {
-while ( a <= 14 )
+while ( a < 15 )
 {
 _putchar(a + '0');
 a++;
