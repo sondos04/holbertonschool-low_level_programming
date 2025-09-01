@@ -14,8 +14,8 @@ int try;
 if (size > 0)
 {
 for (try = 0; try < size ; try++)
-for (cunt = 0; cunt < size ; cunt++)
 {
+for (cunt = 0; cunt < size ; cunt++)
 {
 _putchar(35);
 }
