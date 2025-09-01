@@ -9,6 +9,7 @@ while (cunt < n)
 _putchar('_');
 cunt++;
 }
+_putchar('\n');
 }
 _putchar('\n');
 }
