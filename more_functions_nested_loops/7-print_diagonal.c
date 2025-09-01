@@ -10,15 +10,18 @@
 void print_diagonal(int n)
 {
 int cunt;
+int spece;
 if (n > 0)
 {
 for (cunt = 0; cunt < n ; cunt++)
 {
+for (spece = 0; speca < n ; spece++)
+{
 _putchar(32);
+}
 _putchar(92);
 _putchar('\n');
 }
-_putchar('\n');
 }
 else
 {
