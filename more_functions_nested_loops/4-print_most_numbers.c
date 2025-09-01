@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * print_numbers - Prints numbers from 0 to 9, exsept 2 and 4
+ *
+ * Return: Nothing (void)
+ */
 void print_most_numbers(void)
 {
 int num = 0;
