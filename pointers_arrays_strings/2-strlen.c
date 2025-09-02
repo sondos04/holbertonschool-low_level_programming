@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 int _strlen(char *s)
 {
-	return (strlen(s));
+int count;
+while( s[count] != '\0')
+count ++;
+return (count);
 }
