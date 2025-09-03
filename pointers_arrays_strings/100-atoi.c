@@ -2,6 +2,6 @@
 #include <stdio.h>
 int _atoi(char *s)
 {
-	int new = printf("%d" , s);
+	int new = printf("%s" , s);
 return (new);
 }
