@@ -8,4 +8,5 @@ while (i <= n)
 printf("%d ,", a[i]);
 i++;
 }
+printf("\n");
 }
