@@ -3,5 +3,5 @@
 #include <string.h>
 void print_rev(char *s)
 {
-	_putchar(strrev(*s));
+	_putchar(rev(*s));
 }
