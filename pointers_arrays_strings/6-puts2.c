@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * puts2 - function to prints every other character of a string, starting with the first
+ * puts2 - function print every character of a string -even
  * @str: input string
  */
 void puts2(char *str)
