@@ -3,11 +3,11 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	char *temp;
-	temp = dest
-	for (i = 0 ; i >= '\0' ; i++)
+	while (scr[i] != '\0')
 	{
-		src[i] = temp[i];
-	}
-	return temp;
+		dest[i] = scr[i];
+	i++;
+}
+dest[i] = '\0';
+	return dest;
 }
