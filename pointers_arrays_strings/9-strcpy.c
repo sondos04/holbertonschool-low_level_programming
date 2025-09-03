@@ -3,10 +3,10 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	char temp;
+	char *temp;
+	temp = dest
 	for (i = 0 ; i >= '\0' ; i++)
 	{
-		dest[i] = src[i];
 		src[i] = temp[i];
 	}
 	return temp;
