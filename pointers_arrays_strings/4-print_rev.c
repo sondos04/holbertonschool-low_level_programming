@@ -1,14 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
+
+/**
+ * print_rev - prints a string in reverse (no trailing newline)
+ * @s: input string
+ */
 void print_rev(char *s)
 {
-char *end = s;
-while (*end != '\0')
-end++;
-while ( end >= s )
-{
-_putchar(*end);
-end--;
-}
+    int i = 0;
+
+    while (s[i] != '\0')
+        i++;
+
+    for (i = i - 1; i >= 0; i--)
+        _putchar(s[i]);
 }
