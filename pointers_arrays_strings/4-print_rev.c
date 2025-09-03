@@ -11,5 +11,4 @@ while ( end >= s )
 _putchar(*end);
 end--;
 }
-_putchar('\n');
 }
