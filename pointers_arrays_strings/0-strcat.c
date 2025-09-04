@@ -3,14 +3,13 @@
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
-	char new [];
 	while ( i != '\0')
 	{
-		new[i] = src[i];
+		dest[i] = src[i];
 		i++;
 	}
-	i = '\0';
-	return (dest + new);
+	dest[i] = '\0';
+	return (dest);
 	
 
 }
