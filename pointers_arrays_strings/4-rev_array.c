@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - print an array of integers
+ * reverse_array- function to swap an array of integers
  * @a: an array of integers
  * @n: the number of elements to swap
  *
@@ -18,4 +18,4 @@ temp = a[i];
 a[i] = a[n - i - 1];
 a[n - i - 1] = temp;
 }
-}	
+}
