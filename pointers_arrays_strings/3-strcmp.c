@@ -20,7 +20,7 @@ int _strcmp(char *s1, char *s2)
 }
 	 while (s2[count2] != '\0')
 {
-        sum2 = sum2 + (int)s1[count2];	
+        sum2 = sum2 + (int)s2[count2];	
 	count2++;
 }
 	diff = count1 - count2;
