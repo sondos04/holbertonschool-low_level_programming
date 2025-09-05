@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * _strcmp - function calculate the diff between two strings
- *@s1 = pointer of string one
- *@s2 = pointer of string two
+ * _strcmp - compares two strings
+ * @s1: first string to compare
+ * @s2: second string to compare
  *
- * Return: the diffrente of two strings.
+ * Return: the difference between the first characters that differ
+ *         (s1[i] - s2[i]), or 0 if the strings are equal
  */
 int _strcmp(char *s1, char *s2)
 {
