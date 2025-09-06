@@ -1,15 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i = 0;
 	while (i != '\0')
 	{
-		if (*[i] >= 'a' && *[i] <= 'z')
+		if (*s[i] >= 'a' && *s[i] <= 'z')
 		{
-			*[i] = *[i] - 32;
+			*s[i] = *s[i] - 32;
 		}
 		i++;
 	}
-	return (*);
+	return (*s);
 }
