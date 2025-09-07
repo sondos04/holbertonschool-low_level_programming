@@ -7,11 +7,9 @@ char *_strchr(char *s, char c)
 	{
 	if (s[i] == c)
 	{
-		s = s[i];
-		return (s);
-		break;
+		return (&s[i]);
 	}
 	i++;
 	}
-	return(0);
+	return(NULL);
 }
