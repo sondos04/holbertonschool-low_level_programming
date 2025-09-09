@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 #include <unistd.h>
+/**
+ * _print_rev_recursion - Function to Reverses a string
+ * @s: The string to be reversed
+ *
+ * Description: This function reverses the content of the string
+ *              passed as argument, modifying it in place.
+ *
+ *Return: nothing
+ */
 void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
