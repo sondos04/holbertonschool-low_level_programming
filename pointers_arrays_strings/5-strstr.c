@@ -1,27 +1,28 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * _strstr - function to searches a string for any of a set of bytes
- * @haystack: the string to be scanned
- * @needle: the string containing the characters to match
+ * _strstr - function to locates a substring
+ * @haystack: the string to search in
+ * @needle: the substring to find
  *
- * Return: first occurrence of the substring needle in the string,
- * or NULL if no byte is found
+ * Return: pointer to the beginning of the located substring,
+ * or NULL if the substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
-int j;
-int i;
+int i, j;
+if (!*needle)
+return (haystack);
 for (i = 0; haystack[i] != '\0'; i++)
 {
 for (j = 0; needle[j] != '\0'; j++)
 {
-if (needle[j] != haystack[i])
-{
-return (needle + j);
+if (haystack[i + j] != needle[j])
 break;
 }
-}
+if (needle[j] == '\0') 
+return (haystack + i);
 }
 return (NULL);
 }
