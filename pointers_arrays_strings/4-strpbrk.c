@@ -26,5 +26,5 @@ break;
 if (!count)
 	break;
 }
-return (s[i]);
+return (s);
 }
