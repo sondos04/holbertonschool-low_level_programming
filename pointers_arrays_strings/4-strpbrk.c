@@ -8,7 +8,7 @@
  * Return: number of bytes in the initial segment of s
  *         which consist only of bytes from accept
  */
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 unsigned int j;
 unsigned int i;
