@@ -9,11 +9,11 @@
  */
 int sqrt_helper(int n, int guess)
 {
-    if (guess * guess == n)
-        return guess;
-    if (guess * guess > n)
-        return -1;
-    return sqrt_helper(n, guess + 1);
+	if (guess * guess == n)
+		return guess;
+	if (guess * guess > n)
+		return -1;
+	return sqrt_helper(n, guess + 1);
 }
 /**
  * _sqrt_recursion - returns the natural square root of a number
