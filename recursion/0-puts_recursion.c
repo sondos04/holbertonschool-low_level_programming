@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include "main.h"
+#include <unistd.h>
 /**
- * _puts - prints a string, followed by a new line, to stdout
- * @str: pointer to the string to print
+ * _puts_recursion - prints a string, followed by a new line, to stdout
+ * @s: pointer to the string to print
  *
  * Return: void
  */
 void _puts_recursion(char *s)
 {
-while (*s != '\0')
+if (*s == '\0')
 {
-putchar(*s);
-s++;
+write(1, "\n", 1);
+return;
 }
-putchar('\n');
+write(1, s, 1);
+_puts_recursion(s + 1);
 }
