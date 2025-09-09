@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <math.h>
+
+int sqrt(int n)
+{
+return (sqrt(n));
+}
