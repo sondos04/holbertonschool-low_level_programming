@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main: finction to have argc, argv
+ * _main: finction that have argc, argv
  * Arguments:
  *   int argc   -> Number of arguments passed to the program
  *   char *argv[] -> Array of strings containing the arguments
