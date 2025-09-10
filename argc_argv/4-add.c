@@ -8,7 +8,7 @@
  * @argv: array of pointers to the arguments
  *
  * Description: This program validates each argument as an integer,
- * sums them, prints the result. If any argument is invalid, it prints "Error".
+ * sums them, prints the result. If argument invalid prints "Error".
  *
  * Return: 0 on success, 1 on error
  */
