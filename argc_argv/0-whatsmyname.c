@@ -7,6 +7,8 @@
  * Prints the program's executable name as it was called
  * from the terminal. Renaming or moving the executable
  * changes the output automatically without recompiling.
+ *
+ * Return: return 0 .
  */
 int main(int argc, char *argv[])
 {
