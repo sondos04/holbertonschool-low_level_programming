@@ -14,45 +14,40 @@
  */
 int main(int argc, char *argv[])
 {
-    int i, j, result = 0;
+	int i, j, result = 0;
 
-    if (argc < 1)
-    {
-        printf("Error\n");
-        return 1;
-    }
+	if (argc < 1)
+	{
+	printf("Error\n");
+	return (1);
+	}
 
-    for (i = 1; i < argc; i++)
-    {
-        char *arg = argv[i];
+	for (i = 1; i < argc; i++)
+	{
+	char *arg = argv[i];
 
-        if (*arg == '\0')
-        {
-            printf("Error\n");
-            return 1;
-        }
-
-        if (*arg == '+' || *arg == '-')
-            arg++;
-
-        if (*arg == '\0')
-        {
-            printf("Error\n");
-            return 1;
-        }
-
-        for (j = 0; arg[j]; j++)
-        {
-            if (!isdigit(arg[j]))
-            {
-                printf("Error\n");
-                return 1;
-            }
-        }
-
-        result += atoi(argv[i]);
-    }
-
-    printf("%d\n", result);
-    return 0;
+	if (*arg == '\0')
+	{
+		printf("Error\n");
+		return (1);
+	}
+	if (*arg == '+' || *arg == '-')
+		arg++;
+	if (*arg == '\0')
+	{
+		printf("Error\n");
+		return (1);
+	}
+	for (j = 0; arg[j]; j++)
+	{
+	if (!isdigit(arg[j]))
+		{
+		printf("Error\n");
+		return (1);
+		}
+	}
+	result += atoi(argv[i]);
+	}
+	printf("%d\n", result);
+	return (0);
 }
