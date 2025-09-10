@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- * _main: finction that have argc, argv
+ * Function: main
+ * Definition: int main(int argc, char *argv[])
  * Arguments:
  *   int argc   -> Number of arguments passed to the program
  *   char *argv[] -> Array of strings containing the arguments
