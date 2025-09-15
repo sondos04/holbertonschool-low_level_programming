@@ -25,18 +25,21 @@ return (NULL);
 p = malloc(height * sizeof(int *));
 if (p == 0)
 return (NULL);
-for(row = 0; row < height; row++)
+for (row = 0; row < height; row++)
 {
 p[row] = malloc(width * sizeof(int));
 if (!p[row])
 {
-while (--row >= 0) free(p[row]);
+while (--row >= 0)
+{
+free(p[row]);
 free(p);
 return (NULL);
 }
-for(col = 0; col < width; col++)
+}
+for (col = 0; col < width; col++)
 {
-p[row] [col] = 0;
+p [row] [col] = 0;
 }
 }
 return (p);
