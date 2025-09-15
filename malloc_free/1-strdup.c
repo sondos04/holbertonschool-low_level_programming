@@ -29,6 +29,7 @@ while(str[i] != '\0')
 p[i] = str[i];
 i++;
 }
+p[i] = '\0';
 }
 return (p);
 }
