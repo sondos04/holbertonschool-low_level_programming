@@ -27,8 +27,8 @@ p = malloc((len1 + len2 + 1) * sizeof(char));
 if (p == NULL)
 return (NULL);
 
-i=0;
-j=0;
+i = 0;
+j = 0;
 
 while (s1[i] != '\0')
 {
