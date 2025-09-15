@@ -5,31 +5,27 @@ int **alloc_grid(int width, int height)
 {
 int row;
 int col;
-int *p;
-if (width == NULL)
+int **p;
+
+if (width <= 0)
 {
 return (NULL);
 }
-if (height == NULL)
+if (height <= 0)
 {
 return (NULL);
 }
-if (width < 0)
-{
+p = malloc(height * sizeof(int));
+if (p == 0)
 return (NULL);
-}
-if (height < 0)
+for(row = 0; row < height; row++)
 {
+p[row] = malloc(width * sizeof(int));
+if (!p[row])
 return (NULL);
-}
-p = malloc((width * height) * sizeof(int));
-if (p == NULL)
-return (NULL);
-for(row = 0; row < width; row++)
+for(col = 0; col < width; col++)
 {
-for(col = 0; col < heght: col++)
-{
-p[row][col] = 0;
+p[row] [col] = 0;
 }
 }
 return (p);
