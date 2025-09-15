@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *_create_array - funtion that create an array.
- *discreption: create an array full with char with size by malloc
- *@size: unsigned int contorl the size of array.
+ *create_array - function that create an array.
+ *Description: Creates an array of chars, each initialized to the specified characte
+ *@size: unsigned int contorls the size of array.
  *@c: char to add into array.
  *
- *Return: return the array full of char.
+ *Return: return the array full of char, null for 0 size.
  */
 char *create_array(unsigned int size, char c)
 {
