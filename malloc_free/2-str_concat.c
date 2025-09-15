@@ -23,7 +23,7 @@ while (s2[j] != '\0')
 len2++;
 j++;
 }
-p = malloc(((len1 + 1) + (len2 + 1)) * sizeof(char));
+p = malloc((len1 + len2 + 1) * sizeof(char));
 if (p == NULL)
 return (NULL);
 
