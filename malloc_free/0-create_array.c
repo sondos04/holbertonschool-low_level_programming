@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *create_array - Description Creates array of char by malloc.
+ *create_array - description is function creates array of char by malloc.
  *@size: The size of the array to allocate
  *@c: The character to fill the array with
  *
