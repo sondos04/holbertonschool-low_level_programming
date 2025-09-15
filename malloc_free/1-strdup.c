@@ -25,6 +25,7 @@ if (str == NULL)
 return (NULL);
 }
 p = (char *) malloc((len + 1) * sizeof(char));
+i = 0;
 while(str[i] != '\0')
 {
 p[i] = str[i];
