@@ -24,7 +24,7 @@ while(str[i] != '\0')
 len++;
 i++;
 }
-p = (char *) malloc((len + 1) * sizeof(char));
+p = malloc((len + 1) * sizeof(char));
 i = 0;
 while(str[i] != '\0')
 {
