@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ *alloc_grid- grid with width & height full of 0
+ *@width: width of grid
+ *@height: height of grid
+ *
+ *Return: Pointer to pointer the newly allocated
+ */
 int **alloc_grid(int width, int height)
 {
 int row;
