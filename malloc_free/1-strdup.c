@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * _strdup - Creates an array of chars, by duplicated str
  * @str: array to fill the copy array with
@@ -18,7 +19,7 @@ return (NULL);
 }
 else
 {
-p = (char *) malloc(sizeof(length_of_str + 1));
+p = (char *) malloc(sizeof(strlen(str) + 1));
 if (p == NULL)
 {
 return (NULL);
