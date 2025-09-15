@@ -12,7 +12,6 @@
 char *_strdup(char *str)
 {
 char *p;
-unsigned int length_of_str = strlen(str);
 int i = 0;
 if (str == NULL)
 {
@@ -20,7 +19,7 @@ return (NULL);
 }
 else
 {
-p = (char *) malloc(sizeof(length_of_str + 1));
+p = (char *) malloc(sizeof(strlen(str) + 1));
 if (p == NULL)
 {
 return (NULL);
