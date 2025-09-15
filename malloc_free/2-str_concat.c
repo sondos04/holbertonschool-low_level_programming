@@ -1,18 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-char *str_concat(char *s1, char *s2)
+char *str_concat(char *s2, char *s2)
 {
 char *p;
 int i = 0;
 int j = 0;
 int len1 = 0;
 int len2 = 0;
-
-if (s1 == NULL)
-s1 = "";
-if (s2 == NULL)
-s2 = "";
+if (s1 == NULL && s2 == NULL)
+{
+return (NULL);
+}
 while (s1[i] != '\0')
 {
 len1++;
