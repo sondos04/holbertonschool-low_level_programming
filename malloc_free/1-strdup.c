@@ -15,14 +15,14 @@ char *p;
 int i = 0;
 int len = 0;
 
+if (str == NULL)
+{
+return (NULL);
+}
 while(str[i] != '\0')
 {
 len++;
 i++;
-}
-if (str == NULL)
-{
-return (NULL);
 }
 p = (char *) malloc((len + 1) * sizeof(char));
 i = 0;
