@@ -6,7 +6,7 @@
  *@s1: String to merg
  *@s2: String to merg
  *
- *Return: Pointer to the newly allocated 
+ *Return: Pointer to the newly allocated
  */
 char *str_concat(char *s1, char *s2)
 {
