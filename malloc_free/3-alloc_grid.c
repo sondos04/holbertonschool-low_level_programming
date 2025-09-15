@@ -27,7 +27,7 @@ if (p == 0)
 return (NULL);
 for(row = 0; row < height; row++)
 {
-p[row] = malloc(width * sizeof(int *));
+p[row] = malloc(width * sizeof(int));
 if (!p[row])
 {
 while (--row >= 0) free(p[row]);
