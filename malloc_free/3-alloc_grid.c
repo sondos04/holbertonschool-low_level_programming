@@ -39,7 +39,7 @@ return (NULL);
 }
 for (col = 0; col < width; col++)
 {
-p [row] [col] = 0;
+p[row][col] = 0;
 }
 }
 return (p);
