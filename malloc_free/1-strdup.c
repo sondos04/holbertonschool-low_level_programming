@@ -18,12 +18,12 @@ int len = 0;
 while(str[i] != '\0')
 {
 len++;
+i++;
 }
 if (str == NULL)
 {
 return (NULL);
 }
-
 p = (char *) malloc((len + 1) * sizeof(char));
 if (p == NULL)
 {
