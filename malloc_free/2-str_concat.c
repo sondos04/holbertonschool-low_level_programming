@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ *str_concat - merg two string together
+ *@s1: String to merg
+ *@s2: String to merg
+ *
+ *Return: Pointer to the newly allocated 
+ */
 char *str_concat(char *s1, char *s2)
 {
 char *p;
