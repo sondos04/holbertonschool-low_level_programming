@@ -22,15 +22,15 @@ if (height <= 0)
 {
 return (NULL);
 }
-p = malloc(height * sizeof(int));
+p = malloc(height * sizeof(int *));
 if (p == 0)
 return (NULL);
 for(row = 0; row < height; row++)
 {
-p[row] = malloc(width * sizeof(int));
+p[row] = malloc(width * sizeof(int *));
 if (!p[row])
 {
-while (--row >= 0) free(p[row]);
+while (--row >= 0) free([row]);
 free(p);
 return (NULL);
 }
