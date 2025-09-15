@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *_create_array- funtion that create an array by malloc
+ *create_array - funtion that create an array by malloc
  *@size: unsigned int contorl the size of array.
  *@c: char to add into array.
  *
