@@ -30,7 +30,7 @@ for(row = 0; row < height; row++)
 p[row] = malloc(width * sizeof(int *));
 if (!p[row])
 {
-while (--row >= 0) free([row]);
+while (--row >= 0) free(p[row]);
 free(p);
 return (NULL);
 }
