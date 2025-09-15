@@ -19,7 +19,7 @@ return (NULL);
 }
 else
 {
-p = (char *) malloc(sizeof(strlen(str) + 1));
+p = (char *) malloc((strlen(str) + 1) * sizeof(char));
 if (p == NULL)
 {
 return (NULL);
