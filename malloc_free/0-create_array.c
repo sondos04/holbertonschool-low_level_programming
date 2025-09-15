@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *_create_array - funtion that create an array full with char with size by malloc.
+ *_create_array - funtion that create an array.
+ *discreption: create an array full with char with size by malloc
  *@size: unsigned int contorl the size of array.
  *@c: char to add into array.
  *
