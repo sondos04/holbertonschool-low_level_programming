@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *create_array -create array of chars initializ to specified char by malloc
- *@size: unsigned int contorls the size of array.
- *@c: char to add into array.
+ * create_array - Creates an array of chars, each initialized to a specific char
+ * @size: The size of the array to allocate
+ * @c: The character to fill the array with
  *
- *Return: return the array full of char, null for 0 size.
+ * Return: Pointer to the newly allocated array, or NULL if size is 0 or malloc fails
  */
 char *create_array(unsigned int size, char c)
 {
