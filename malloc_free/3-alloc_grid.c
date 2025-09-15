@@ -29,7 +29,11 @@ for(row = 0; row < height; row++)
 {
 p[row] = malloc(width * sizeof(int));
 if (!p[row])
+{
+while (--row >= 0) free(p[row]);
+free(p);
 return (NULL);
+}
 for(col = 0; col < width; col++)
 {
 p[row] [col] = 0;
