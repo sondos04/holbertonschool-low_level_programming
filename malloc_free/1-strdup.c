@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _strdup - Creates an array of chars, by duplicated str
- * @str: array to fill the copy array with
+ *_strdup - Duplicates a string by allocating memory for a copy
+ *@str: String to duplicate
  *
- * Return: Pointer to the newly allocated array, or NULL if str or malloc fails
+ *Return: Pointer to the newly allocated copy, or NULL if str or malloc fails
  */
 
 char *_strdup(char *str)
@@ -17,8 +17,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-else
-{
+
 p = (char *) malloc((strlen(str) + 1) * sizeof(char));
 if (p == NULL)
 {
@@ -30,6 +29,5 @@ p[i] = str[i];
 i++;
 }
 p[i] = '\0';
-}
 return (p);
 }
