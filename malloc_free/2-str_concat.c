@@ -8,10 +8,11 @@ int i = 0;
 int j = 0;
 int len1 = 0;
 int len2 = 0;
-if (s1 == NULL && s2 == NULL)
-{
-return (NULL);
-}
+
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 while (s1[i] != '\0')
 {
 len1++;
