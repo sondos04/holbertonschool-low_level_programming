@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *create_array - function that create an array.
- *Description: Creates an array of chars initialized to specified characte
+ *create_array - function create array of chars initialized to specified char
  *@size: unsigned int contorls the size of array.
  *@c: char to add into array.
  *
