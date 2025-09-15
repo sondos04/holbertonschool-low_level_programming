@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- *create_array - function create array of chars initialized to specified char
+ *create_array -create array of chars initializ to specified char by malloc
  *@size: unsigned int contorls the size of array.
  *@c: char to add into array.
  *
