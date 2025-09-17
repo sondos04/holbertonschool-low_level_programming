@@ -3,7 +3,8 @@
 #include <stdlib.h>
 /**
  *free_grid- free the grid after malloc
- *@height: height of grid
+ * @grid: pointer to pointer array
+ * @height: height of grid
  *
  *Return: nothing
  */
