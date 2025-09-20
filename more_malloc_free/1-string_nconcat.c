@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ *string_nconcat- copy string and add another till n count
+ *@s1: String one to add
+ *@s2: String two to add
+ *@n: Number of char
+ *
+ *Return: Pointer to the newly allocated copy, or NULL if str or malloc fails
+ */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i;
@@ -26,7 +34,7 @@ size = len1 + len2 + 1;
 else
 size = len1 + n + 1;
 
-p = malloc(size * sizeof(char));
+p = malloc(size *sizeof(char));
 if (p == NULL)
 return (NULL);
 
