@@ -22,13 +22,13 @@ while (s2[len2] != '\0')
 len2++;
 
 if (n >= len2)
-    size = len1 + len2 + 1;
+size = len1 + len2 + 1;
 else
-    size = len1 + n + 1;
+size = len1 + n + 1;
 
 p = malloc(size * sizeof(char));
 if (p == NULL)
-return NULL;
+return (NULL);
 
 for (i = 0; i < len1; i++)
 {
