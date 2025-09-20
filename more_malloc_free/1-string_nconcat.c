@@ -26,6 +26,9 @@ if (n >= len2)
 else
     size = len1 + n + 1;
 
+if (p == NULL)
+return NULL;
+
 p = malloc(size * sizeof(char));
 
 for (i = 0; i < len1; i++)
