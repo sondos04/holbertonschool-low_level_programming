@@ -3,11 +3,12 @@
 #include <stdlib.h>
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int i;
-int j;
-int len1 = 0;
-int len2 = 0;
-int size;
+unsigned int i;
+unsigned int j;
+unsigned int len1 = 0;
+unsigned int len2 = 0;
+unsigned int size;
+char *p;
 if (s1 == NULL)
 s1 = "";
 
@@ -25,7 +26,7 @@ if (n >= len2)
 else
     size = len1 + n + 1;
 
-char *p = malloc(size * sizeof(char));
+p = malloc(size * sizeof(char));
 
 for (i = 0; i < len1; i++)
 {
