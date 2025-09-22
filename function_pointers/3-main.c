@@ -1,5 +1,11 @@
 #include "3-calc.h"
-
+/**
+ * main - Entry point for simple calculator program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: 0 on success, exits with specific codes on error
+ */
 int main(int argc, char *argv[])
 {
 int num1, num2, result;
