@@ -24,7 +24,7 @@ printf("%s", word);
 else
 printf("(nil)");
 
-if (separator != NULL && i != (n-1))
+if (separator != NULL && i != (n - 1))
 {
 printf("%s", separator);
 }
