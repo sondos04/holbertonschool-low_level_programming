@@ -3,9 +3,8 @@
 #include "variadic_functions.h"
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-int i;
-int num;
-char c;
+unsigned int i;
+unsigned int num;
 va_list args;
 
 va_start(args, n);
