@@ -19,7 +19,7 @@ va_start(args, format);
 
 while (format != NULL && format[i] != '\0')
     {
-if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' ||format[i] == 's')
+if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
 {
 printf("%s", separator);
 switch (format[i])
@@ -35,7 +35,7 @@ printf("%f", va_arg(args, double));
 break;
 case 's':
 str = va_arg(args, char *);
-if (str == NULL)  // if 2
+if (str == NULL)
 str = "(nil)";
 printf("%s", str);
 break;
