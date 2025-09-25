@@ -18,8 +18,9 @@ char *separator = "";
 va_start(args, format);
 
 while (format != NULL && format[i] != '\0')
-    {
-if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
+{
+if (format[i] == 'c' || format[i] == 'i' || 
+	format[i] == 'f' || format[i] == 's')
 {
 printf("%s", separator);
 switch (format[i])
