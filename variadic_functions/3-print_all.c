@@ -18,28 +18,28 @@ char *separator = "";
 va_start(args, format);
 
 while (format != NULL && format[i] != '\0')
+    {
+if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' ||format[i] == 's')
 {
-if (format[i] == 'c')
+printf("%s", separator);
+switch (format[i])
 {
-printf("%s%c", separator, va_arg(args, int));
-separator = ", ";
-}
-if (format[i] == 'i')
-{
-printf("%s%d", separator, va_arg(args, int));
-separator = ", ";
-}
-if (format[i] == 'f')
-{
-printf("%s%f", separator, va_arg(args, double));
-separator = ", ";
-}
-if (format[i] == 's')
-{
+case 'c':
+printf("%c", va_arg(args, int));
+break;
+case 'i':
+printf("%d", va_arg(args, int));
+break;
+case 'f':
+printf("%f", va_arg(args, double));
+break;
+case 's':
 str = va_arg(args, char *);
-if (str == NULL)
+if (str == NULL)  // if 2
 str = "(nil)";
-printf("%s%s", separator, str);
+printf("%s", str);
+break;
+}
 separator = ", ";
 }
 i++;
