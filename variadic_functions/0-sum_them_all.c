@@ -3,13 +3,13 @@
 #include "variadic_functions.h"
 int sum_them_all(const unsigned int n, ...)
 {
-int sum = 0;
-int count;
+unsigned int sum = 0;
+unsigned int count;
+va_list args;
 
 if (n == 0)
 return (0);
 
-va_list args;
 va_start(args, n);
 for (count = 0; count < n; count++)
 {
