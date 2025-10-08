@@ -6,17 +6,22 @@
  */
 size_t print_list(const list_t *h)
 {
+#include <stdlib.h>
+#include <string.h>
+#include <stddef.h>
 #include <stdio.h>
 #include "lists.h"
 
-size_t int count = 0;
+size_t count = 0;
 
 while (h != NULL)
 {
 if (h->str == NULL)
 printf("[0] (nil)\n");
-eles
+else
 printf("[%u] %s\n", h->len , h->str);
 h = h->next;
 count ++;
+}
+return(cpount);
 }
