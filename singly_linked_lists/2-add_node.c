@@ -29,7 +29,7 @@ if (element == NULL)
 free(node);
 return (NULL);
 }
-if (element != '\0')
+if (element != NULL)
 count ++;
 node->str = element;
 node->len = count;
