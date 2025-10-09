@@ -29,8 +29,10 @@ if (element == NULL)
 free(node);
 return (NULL);
 }
-if (element != NULL)
+while (element[count] != '\0')
+{
 count ++;
+}
 node->str = element;
 node->len = count;
 node->next = *head;
