@@ -14,6 +14,7 @@ list_t *add_node(list_t **head, const char *str)
 {
 list_t *node;
 char *element;
+size_t count = 0;
 if (head == NULL || str == NULL)
 return (NULL);
 
@@ -28,8 +29,10 @@ if (element == NULL)
 free(node);
 return (NULL);
 }
+if (element != '\0')
+count ++;
 node->str = element;
-node->len = (unsigned int)strlen(element);
+node->len = count;
 node->next = *head;
 *head = node;
 return (node);
