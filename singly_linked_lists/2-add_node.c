@@ -4,7 +4,7 @@
 
 /**
  *add_node - add node to the list_t list
- *@head: pointer to pointer list 
+ *@head: pointer to pointer list
  *@str: pointer to the char
  *
  * Return: address of new nodes
@@ -31,7 +31,7 @@ return (NULL);
 }
 while (element[count] != '\0')
 {
-count ++;
+count++;
 }
 node->str = element;
 node->len = count;
