@@ -4,7 +4,7 @@
 #include "lists.h"
 /**
  * add_dnodeint - add a new node at the beginning
- * @h: pointer to pointer to the head of the list
+ * @head: pointer to pointer to the head of the list
  * @n: integer - value of lists
  *
  * Return: address of new node on success, or NULL on failure
