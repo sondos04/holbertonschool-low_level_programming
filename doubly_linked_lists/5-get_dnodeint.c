@@ -8,7 +8,7 @@
  * @head: pointer to the head of the list
  * @index: zero-based position of the target node
  *
- * Return: pointer to the node at @index on success, or NULL if it doesn't exist
+ * Return: pointer to node at @index on success, or NULL if it doesn't exist
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
