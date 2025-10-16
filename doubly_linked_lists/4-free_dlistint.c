@@ -6,7 +6,7 @@
 /**
  * free_dlistint - free all the list
  * @head: address of the pointer to the head node
- * 
+ *
  * Return: Nothing
  */
 
