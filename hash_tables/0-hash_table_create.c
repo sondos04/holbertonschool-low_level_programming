@@ -13,7 +13,7 @@ table = calloc(1,sizeof(hash_table_t));
 if (table == NULL)
 return (NULL);
 table->size = size;
-table->array = calloc(size,sizeof(*hash_node_t));
+table->array = calloc(size,sizeof(hash_node_t*));
 if(table->array == NULL)
 {
 free (table);
