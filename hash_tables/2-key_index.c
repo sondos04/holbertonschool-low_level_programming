@@ -18,6 +18,6 @@ if (size == 0)
 return (0);
 if (key == 0)
 return (0);
-index = hash_djb2(key) % size; 
+index = hash_djb2(key) % size;
 return (index);
 }
