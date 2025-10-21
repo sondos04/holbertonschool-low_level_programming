@@ -4,7 +4,7 @@
 #include "hash_tables.h"
 
 /**
- *hash_table_create - creat a an emty table of size @size 
+ *hash_table_create - creat a an emty table of size @size
  *@size: inteeger of the size of array
  *
  *Return: table for sucseess, NULL for failer
