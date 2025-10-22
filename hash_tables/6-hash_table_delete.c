@@ -12,7 +12,7 @@ hash_node_t *node, *tmp;
 unsigned long int i;
 
 if (ht == NULL)
-return (NULL);
+return;
 
 for(i = 0; i < ht->size; i++)
 {
