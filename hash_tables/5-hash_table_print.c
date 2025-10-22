@@ -3,7 +3,7 @@
 /**
 * hash_table_print -  prints a hash table
 * @ht: pointer to the hash table
-* 
+*
 * Return: nothing
 */
 void hash_table_print(const hash_table_t *ht)
@@ -17,7 +17,7 @@ return;
 
 printf("{");
 
-for(i = 0; i < ht->size; i++)
+for (i = 0; i < ht->size; i++)
 {
 node = ht->array[i];
 while (node)
