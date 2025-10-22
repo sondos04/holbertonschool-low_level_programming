@@ -23,7 +23,7 @@ node = ht->array[i];
 while (node)
 {
 if (count)
-printf(",");
+printf(", ");
 printf("'%s':'%s'", node->key, node->value);
 count = 1;
 node = node->next;
